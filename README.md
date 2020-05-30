@@ -1,4 +1,4 @@
-# OuiCal
+# AgrCal
 
 Una biblioteca JS simple que permite agregar un botón "agregar al calendario" para los próximos eventos.
 
@@ -49,10 +49,10 @@ Los únicos campos que son obligatorios son:
 
     document.querySelector('#place-where-I-want-this-calendar').appendChild(myCalendar);
 
-[Aquí hay un ejemplo en vivo](https://github.com/duendecasino/botones-de-agregar-al-calendario/example.html)
+[Aquí hay un ejemplo en vivo](https://duendecasino.github.io/botones-de-agregar-al-calendario/example.html)
 
 ## ¿Buscas gratificación instantánea?
-[Copie OuiCal en la consola JS de Chrome](https://raw.github.com/carlsednaoui/ouical/master/ouical.js) (o cualquier navegador que estés usando).
+[Copie AgrCal en la consola JS de Chrome](https://duendecasino.github.io/botones-de-agregar-al-calendario/agrcal.js) (o cualquier navegador que estés usando).
 
 
 Entonces llama a esto:
@@ -62,10 +62,10 @@ Entonces llama a esto:
 \#¡victorioso!
 
 ## Generador de calendario
-¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aquí] (http://carlsednaoui.github.io/add-to-calendar-buttons/generator/generator.html).
+¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aquí] (https://duendecasino.github.io/botones-de-agregar-al-calendario/generator.html).
 
 ## GitHub Project Page
-[Official Project Page](http://carlsednaoui.github.io/add-to-calendar-buttons/)
+[Official Project Page](https://duendecasino.github.io/botones-de-agregar-al-calendario/)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
