@@ -49,10 +49,10 @@ Los únicos campos que son obligatorios son:
 
     document.querySelector('#place-where-I-want-this-calendar').appendChild(myCalendar);
 
-[Aquí hay un ejemplo en vivo](https://duendecasino.github.io/botones-de-agregar-al-calendario/example.html)
+[Aquí hay un ejemplo en vivo](https://github.com/duendecasino/botones-de-agregar-al-calendario/example.html)
 
 ## ¿Buscas gratificación instantánea?
-[Copie AgrCal en la consola JS de Chrome](https://duendecasino.github.io/botones-de-agregar-al-calendario/agrcal.js) (o cualquier navegador que estés usando).
+[Copie AgrCal en la consola JS de Chrome](https://github.com/duendecasino/botones-de-agregar-al-calendario/agrcal.js) (o cualquier navegador que estés usando).
 
 
 Entonces llama a esto:
@@ -62,13 +62,13 @@ Entonces llama a esto:
 \#¡victorioso!
 
 ## Generador del calendario
-¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aqui](https://duendecasino.github.io/botones-de-agregar-al-calendario/generador/generator.html).
+¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aqui](https://github.com/duendecasino/botones-de-agregar-al-calendario/generador/generator.html).
 
 
 
 
 ## GitHub Project Page
-[Official Project Page](https://duendecasino.github.io/botones-de-agregar-al-calendario/)
+[Official Project Page](https://github.com/duendecasino/botones-de-agregar-al-calendario/)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
