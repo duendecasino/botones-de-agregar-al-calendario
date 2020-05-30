@@ -62,7 +62,7 @@ Entonces llama a esto:
 \#¡victorioso!
 
 ## Generador de calendario
-¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aquí] (https://duendecasino.github.io/botones-de-agregar-al-calendario/generator.html).
+¿Necesita generar un widget para agregar al calendario sobre la marcha? No hay problema, [ir aquí] (https://duendecasino.github.io/botones-de-agregar-al-calendario/generador/generator.html).
 
 ## GitHub Project Page
 [Official Project Page](https://duendecasino.github.io/botones-de-agregar-al-calendario/)
