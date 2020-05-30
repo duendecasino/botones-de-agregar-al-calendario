@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../ouical.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="agrcal_generator.css">
+    <title>Generador de código de incrustación del calendario</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Añadir al generador de calendario</h1>
+    </header>
+
+    <div id="wrapper">
+      <h2>Ingrese los detalles de su evento</h2>
+
+      <form id="calendar-generator">
+        <label for="event-title">Título:</label>
+        <input type="text" name="event-title" id="event-title">
+
+        <label for="start-time">Hora de inicio:</label>
+        <input type="datetime-local" name="start-time" id="start-time">
+
+        <label for="end-time">Hora de finalización:</label>
+        <input type="datetime-local" name="end-time" id="end-time">
+
+        <label for="event-address">Dirección:</label>
+        <input type="text" name="event-address" id="event-address">
+
+        <label for="event-description"></label>
+        <textarea name="textarea" rows="10" cols="50" placeholder="Descripción" id="event-description"></textarea>
+
+        <label for="event-id">ID de CSS personalizado:</label>
+        <input type="text" name="event-id" id="event-id">
+
+        <label for="event-class">Clase CSS personalizada:</label>
+        <input type="text" name="event-class" id="event-class">
+
+        <input type="submit" value="Generar calendario" />
+      </form>
+
+      <h2>El resultado aparecerá debajo</h2>
+
+      <div id="live-example"></div>
+      <div id="html-result"></div>
+    </div>
+    
+    <script src="agrcal_generator.js"></script>
+  </body>
+</html>
