@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="ouical.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Agregar al Calendario Ejemplo</title>
+  </head>
+
+  <body>
+    <div class="new-cal"></div>
+    <div class="new-cal2"></div>
+  <script>
+      var myCalendar = createCalendar({
+        options: {
+          class: 'my-class',
+          id: 'my-id'                               // Necesita pasar una identificación. Si no lo hace, se generará uno para usted.
+        },
+        data: {
+          title: 'Entra en la portada de HN',     // Título del evento
+          start: new Date('Junio 12, 2020 19:00'),   // Fecha de inicio del evento
+          duration: 120,                            // Duración del evento (EN MINUTOS)
+          end: new Date('Junio 12, 2013 23:00'),     // También puede elegir establecer una hora de finalización.
+                                                    // Si se establece un tiempo de finalización, esto tendrá prioridad sobre la duración
+          address: 'Casino Duende',
+          description: 'Entra en la portada de Casino Duende, luego prepárate para dominar el juego de azar online.'
+        }
+      }),
+      myCalendar2 = createCalendar({
+        options: {
+          class: 'my-class'                         // Observe cómo este no tiene una ID preestablecida
+        },
+        data: {
+          title: 'Jugar a mi tragamonedas favorita',
+          start: new Date('Junio 12, 2020 17:00'),
+          duration: 60,
+          address: 'Gonzo's Quest',
+          description: 'La búsqueda de Gonzo es una vídeo tragaperras online diseñada por desarrollador de juegos NetEnt. El juego tiene lugar en un barco, cuando hace siglos Gonzo (inspirado en el famoso conquistador Gonzalo Pizarro) se encontró con antiguas ruinas peruanas.'
+        }
+      });
+
+      document.querySelector('.new-cal').appendChild(myCalendar);
+      document.querySelector('.new-cal2').appendChild(myCalendar2);
+  </script>
+  </body>
+</html>
